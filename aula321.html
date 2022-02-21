@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu HTML</title>
+    <style>
+        h1 {
+          background: red;
+        }
+        #heading-2{
+            background: blue;
+        } 
+        .fundo-vermelho{
+            background: red;
+        }
+        .bold{
+            color: brown;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="heading" class="fundo-vermelho">
+        Uma vez que eu coloco uma id na tag, a mesma não pode ser repetida. Os identificadores(ids), precisam ser diferentes.
+    </h1>
+    <h1 id="heading-2">
+        Aqui está o segundo cabeçalho com uma diferente id. Também não é legal colocar cedilhas ou acentuações, estou apenas exemplificando. Classes também são identificadores, mas ao contrário das ids, elas podem se repetir.
+    </h1>
+    <p>
+        Na tag 'style', você precisará utilizar a linguagem CSS, como foi exemplificado acima, isto para colocar um estilo na tag que você quiser chamar, aqui a h1 seguida das chaves. Chamando pelo id, na linguagem CSS, você utiliza # antes do nome do mesmo, como exemplificado acima. A tag 'b', bold, deixa o texto em <b class="bold">negrito!</b>. Lembre-se, opte por colocar estilos nas classes, pois uma vez selecionado o id, será muito difícil sobrescrever alguma outra coisa. Para chamar a classe, utilize um ponto antes do nome da mesma e abra as chaves especificando o estilo que você desejar. Aqui também coloquei o negrito com uma classe e coloquei a cor da classe, marrom, como descrito acima. Caso deejar o negrito sem com apenas utilizar a tag 'b' sem chamar a classe: <b>ASSIM</b>.
+    </p>
+</body>
+</html>
