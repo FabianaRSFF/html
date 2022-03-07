@@ -1,0 +1,38 @@
+.heading {
+    transition: all 300ms ease-in-out;
+}
+
+.heading:hover {
+    background: red;
+}
+
+a {
+    color:darkcyan;
+}
+
+a:link {
+    color: darkred;
+}
+
+a:visited {
+    color: gold;
+}
+
+input:focus {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    outline: none;
+    border: 1px solid black;
+}
+input:disabled {
+    background-color: indigo;
+    cursor: not-allowed;
+}
+input:enabled {
+    background-color: rgb(12, 4, 17);
+    color: antiquewhite;
+}
+
+input:checked {
+    width: 50px;
+    height: 50px;
+}
