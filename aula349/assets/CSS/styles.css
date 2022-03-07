@@ -1,0 +1,19 @@
+p {
+    font-size: 24px;
+}
+
+p::first-letter{
+    font-size: 150px;
+    display: block;
+    float:left;
+    margin: 0 10px 10px 0;
+}
+
+p::first-line {
+    background:rgb(230, 177, 177);
+}
+
+p::selection{
+    background-color: black;
+    color: white;
+}
