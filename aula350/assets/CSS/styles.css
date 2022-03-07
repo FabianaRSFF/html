@@ -1,0 +1,12 @@
+body#b p#p.p {
+    background-color: brown;
+}
+
+#p {
+    background: purple;
+}
+
+#p.p {
+    background: gray;
+}
+
