@@ -1,0 +1,25 @@
+ul li:nth-child(2){
+    background: purple;
+}
+
+/* somente os pares: */
+
+ul li:nth-child(even){
+    background: purple;
+}
+
+/* somente os [impares: */
+
+ul li:nth-child(odd){
+    background: darkblue;
+}
+
+/* From 3 to 3:*/
+
+ul li:nth-child(3n){
+    background: darkslategray;
+}
+
+ul li:nth-child(3n + 5){
+    background: red;
+}
