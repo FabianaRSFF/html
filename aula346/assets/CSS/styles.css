@@ -48,3 +48,7 @@ input:checked {
 input:required{
     background: red;
 }
+
+p:not(.meio){
+    color: blue;
+}
