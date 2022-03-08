@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: stretch;
+  background: brown;
+  height: 500px;
+}
+
+.flex-item {
+  color: brown;
+  font-family: sans-serif;
+  width: 100%;
+  background: #F2BB66;
+  margin: 10px;
+}
+.flex-item:nth-child(1){
+  font-size: 40px;
+}
