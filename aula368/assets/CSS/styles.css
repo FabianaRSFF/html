@@ -7,35 +7,33 @@ body {
   font-family: sans-serif;
   font-size: 40px;
 }
-
-.container {
+.grid {
   max-width: 1200px;
   margin: 0 auto;
-  overflow-x: hidden;
-}
-
-.grid {
-  width: calc(100% + 30px);
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  grid-template-columns: [um] 1fr
+      [dois] 1fr 
+      [tres] 1fr 
+      [quatro];
+  grid-template-rows: [um] 1fr
+      [dois] 1fr 
+      [tres] 1fr 
+      [quatro];
   gap: 30px;
-  /*row-gap: 30px;
-  column-gap: 30px;
-  gap: 30px 80px;*/
 }
 
 .grid div {
-  background: rgb(168, 67, 67);
+  background: black;
   color: white;
   min-height: 100px;
 }
 
-/*.grid div:nth-child(5) {
-  grid-column-start: um;
+.grid div:nth-child(13) {
+  /*grid-column-start: um;
   grid-column-end: quatro;
   grid-column: um / quatro;
-  grid-row: span 1 / 2;
+  grid-row: span 1 / 2;*/
   grid-area: um / um / quatro / quatro;
   background: red;
 
-}*/
+}
